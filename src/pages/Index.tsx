@@ -1,14 +1,14 @@
 import React from "react";
 import AppleNavigation from "@/components/AppleNavigation";
 import AppleHero from "@/components/AppleHero";
-import AppleProductGrid from "@/components/AppleProductGrid";
+import AppleProductShowcase from "@/components/AppleProductShowcase";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <AppleNavigation />
       <AppleHero />
-      <AppleProductGrid />
+      <AppleProductShowcase />
     </div>
   );
 };
